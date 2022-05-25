@@ -1,0 +1,24 @@
+
+.col-6 img{
+    margin: 100px 0px 60px 30px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+.col-6 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    font-family: Poppins;
+}
+.col-6 p{
+    display: flex;
+    text-align: justify;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    font-family: Poppins;
+}
+

@@ -1,0 +1,17 @@
+#col-12img{
+    height: 300px;
+    width: 120%;
+    background-image: url('/public/Images/xbg_2\(crop\)-overlay.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h1{
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 350%;
+    font-weight: bolder;
+    margin: 120px 450px;
+    border-radius: 10px;
+    color: white;
+}

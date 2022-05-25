@@ -1,0 +1,31 @@
+
+.signup{
+    background-color:  white ;
+    opacity: 90%;
+}
+
+
+
+#firstname{
+    width: 350px;
+}
+#lastname{
+    width: 350px;
+}
+#email{
+    width: 350px;
+}
+#gender{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#age{
+    width: 350px;
+}
+#password{
+    width: 350px;
+}
+#agree{
+    width: 20px;    
+}

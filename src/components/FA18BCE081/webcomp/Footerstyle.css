@@ -1,0 +1,38 @@
+#Footer{
+    border-top: 2px solid white;
+    width: 100%;
+    height: 300px;
+    background: #3CBEB2;
+}
+.row-1{
+    background: #3CBEB2;
+    display: flex;
+    align-items: center;
+}
+.row-1 img{
+    width: 50px;
+    height: 50px;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+}
+.row-2 p{
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 180%;   
+}
+.row-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-4 ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+#menu-list p:hover{
+    background-color: #070707;
+    opacity: 80%;
+    color: #3CBEB2;
+}

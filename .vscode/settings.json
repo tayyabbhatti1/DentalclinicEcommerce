@@ -1,0 +1,6 @@
+{
+    "window.closeWhenEmpty": true,
+    "php.validate.enable": false,
+    "php.suggest.basic": false,
+    "editor.minimap.enabled": false
+}

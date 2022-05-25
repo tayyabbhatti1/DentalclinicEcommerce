@@ -1,0 +1,98 @@
+
+#header-1{
+    height: 80px;
+}
+#header-2{
+    height: 80px;
+    text-align: right;
+    padding-top: 26px;
+    margin-left: 280px;
+}
+#header-3{
+    height: 80px;
+    padding-top: 25px;
+}
+#header-4{
+    height: 80px;
+    padding-top: 9px;
+   margin-left: -135px;
+}
+#header-5{
+    height: 80px;
+    margin-left: -60px;
+    margin-top: 20px;
+}
+#header-6{
+    height: 80px;
+    padding-top: 20px;
+    margin-left: -90px;
+}
+#header-img{
+    width: 350px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+#header-2 li{
+    display: inline;
+    list-style: none;
+    font-family: 'poppins';
+    padding-right: 20px;
+    font-size: 25px;
+    color: #324576;
+}
+
+#header-2 li:hover{
+    color: #0071cc;
+
+}
+#header-2 li:active{
+    color: #0071cc;
+    
+}
+
+#header-3 p{
+    display: inline;
+    list-style: none;
+    font-family: 'poppins';
+    padding-right: 20px;
+    font-size: 25px;
+    color: #324576;
+    border-left: 1px solid #D6DDE4;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+#header-3 p:hover{
+    color: #0071cc;
+}
+#header-4 i{
+    font-size: 40px;
+    color: #8F9DAC;
+}
+#header-4 :hover{
+  color: #4D9BDB;
+}
+#header-5 i{
+    color:#0c2e53 ;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+#h6-p1,#h6-p2{
+    font-size: 18px;
+    color: #324576;
+}
+#header-5 :hover{
+    color: #4D9BDB;
+}
+#h6-p1{
+    margin-bottom: 3px;
+}
+#header-6 a{
+    text-decoration: none;
+}
+
+#header-6 :hover{
+    color: #4D9BDB;
+}
+

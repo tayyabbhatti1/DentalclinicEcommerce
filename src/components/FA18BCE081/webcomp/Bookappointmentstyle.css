@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CBEB2;
+}
+.col-8 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: bolder;
+    
+}
+.col-8 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: bolder;
+}

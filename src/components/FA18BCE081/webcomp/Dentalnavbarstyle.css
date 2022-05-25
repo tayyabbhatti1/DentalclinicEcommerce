@@ -1,0 +1,17 @@
+.row-1{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#menu-list p:hover{
+    background-color: #070707;
+    opacity: 80%;
+    color: #3CBEB2;
+}
+#Appointmentbutton:hover{
+    background-color: white;
+    opacity: 80%;
+    color: #3CBEB2;
+}

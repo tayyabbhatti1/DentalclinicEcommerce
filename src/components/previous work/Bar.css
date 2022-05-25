@@ -1,0 +1,99 @@
+
+#carousal{
+    z-index: -1;
+}
+#main-1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #D8DCE3;
+    padding: 15px;
+    justify-content: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: -100px;
+    margin-bottom: 17px;
+}
+
+#search{
+    border: 1px solid black;
+    font-family: 'Poppins';
+    border: 1px solid #f6951c;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#dropdownMenuButton1{
+    background-color: #343A40;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    color: #f6951c;
+    border: 1px solid #f6951c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#icon-1{
+    padding-left: 200px;
+}
+
+#Search-Button{
+    background-color: #f6951c;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    border: 1px solid #212529;
+    padding: 13px;
+    border-radius: 10px;
+    margin-right: 9px;
+    padding-left: 60px;
+}
+#icon-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.dropdown ul{
+    width: 95%;
+    background-color: #343A40;
+    
+}
+
+.dropdown ul li a{
+    color: #f6951c;
+}
+.dropdown ul li i{
+    padding-right: 20px;
+    margin-left: -12px;
+}
+
+
+.dropdown ul li a:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+#date{
+    background-color: #343A40;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    color: #f6951c;
+    border: 1px solid #f6951c;
+    padding: 15px;
+    padding-right: 25px;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+
+#state_a{
+    font-family: 'Poppins';
+    margin-left: 20px;
+    font-style: normal;
+}
