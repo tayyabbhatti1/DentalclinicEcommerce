@@ -5,6 +5,7 @@ import * as Yup from "yup";
 import { useNavigate } from "react-router";
 
 
+
 const ValidationSchema = Yup.object().shape({
     name: Yup.string()
         .required("Full Name is required"),
@@ -27,9 +28,8 @@ const Forms = () => {
     
     return (
         <>
-    
         
-        <div className="container" style={{marginTop:'40px', marginBottom:'40px'}}>
+        <div className="container-fluid" style={{marginTop:'40px', marginBottom:'40px'}}>
             
             <div className="row">
                 <div className="col-lg-12">
@@ -161,13 +161,19 @@ ${touched.message && errors.message ? "is-invalid" : ""}`}
                                         <button
                                             id='submit-form'
                                             type="submit"
-                                            className="btn btn-primary btn-block mt-4"
+                                            className="btn btn-primary btn-block mt-4 form-control"
                                         >
                                             Submit
                                         </button>
-
                                     </Form>
-                                </div>
+                                        <button
+                                            id='submit-form'
+                                            type="submit"
+                                            className="btn btn-primary btn-block mt-4 form-control"
+                                        >
+                                            View Patient
+                                        </button>
+                                 </div>
                             ) : (
                                 <div>
                                     <h1 className="p-3 mt-5">Query Sent</h1>

@@ -9,14 +9,14 @@ const Doctor = () => {
     
         return (
             <>
-            <div style={{height:'650px'}}>
+            <div className='justify-content-center' style={{height:'650px'}}>
             <div>
                     <h1 className='text-center' id='Doctorh1'>OUR DOCTORS</h1>
                     <p className='text-center' id='Doctorp'>QUALIFIED</p>
                 </div>
-                <div className='justify-contect-center' id='Doctorcard' >
+                <div className='justify-contect-center   ' id='Doctorcard' >
                 
-                    <tr>
+                    <tr className='container-fluid'>
                         <td style={{display:'flex', }}>
                             {
                                 Doctersdata.DoctorDetails.map(Doctor=>(

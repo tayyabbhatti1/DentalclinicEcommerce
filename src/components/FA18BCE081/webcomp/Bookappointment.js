@@ -5,7 +5,7 @@ import '../webcomp/Bookappointmentstyle.css'
 function Bookappointment (){
     return(
         
-        <div className='row' style={{height:'150px', borderBottom:'2px solid white'}}>
+        <div className='row container-fluid' style={{height:'150px',width:'100.9%', borderBottom:'2px solid white'}}>
             <div className='col-8'>
                 <h3 id='p1'>BOOK YOUR APPOINTMENT</h3>
                 <h2 id='p2'>DO NOT WAIT MAKE AN APPOINTMENT TODAY!</h2>

@@ -7,7 +7,7 @@ class ServiceForm extends Component {
     state = {}
     render() {
         return (
-            <div className='serviceform'>
+            <div className='serviceform container-fluid'>
                 <div class="row">
                     <div class="col" id='col1'>
                         <h2 id='callus'>Call us</h2>

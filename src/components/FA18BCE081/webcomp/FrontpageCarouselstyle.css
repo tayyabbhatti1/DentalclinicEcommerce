@@ -1,4 +1,6 @@
 #Appointmentbutton:hover{
     background-color: black;
-    color: #3CBEB2;
+    color: none;
+    border: 1px solid;
+    
 }

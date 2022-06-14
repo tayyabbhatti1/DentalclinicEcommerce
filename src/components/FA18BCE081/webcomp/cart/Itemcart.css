@@ -13,4 +13,11 @@
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 300%;
+    background-color: #3CBEB2;
+    padding: 30px;
+    margin-top: 0%;
+}
+
+#productcart{
+    background-color: white;
 }

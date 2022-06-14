@@ -7,12 +7,12 @@ import {Link} from "react-router-dom";
 class Footer extends Component {
     render() { 
         return (
-            <div id='Footer'>
+            <div id='Footer' className='container-fluid'>
                 <div className='row'>
                     <div className='row1' style={{height:'30px', width:'100%'}}>
                     </div>
-                    <div className='row-1' style={{height:'60px', width:'100%'}}>
-                        <img src={"/Images/Logo_1.png"} alt=''/>
+                    <div className='row-1 justify-content-center' style={{height:'60px', width:'100%'}}>
+                        <img src={"/Images/logo_1.png"} alt=''/>
                     </div>
                     <div className='row-2' style={{height:'60px', width:'100%'}}>
                         <p>SUNBURST DENTAL</p>

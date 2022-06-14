@@ -17,7 +17,7 @@ const Cart = () => {
     if (isEmpty) return <h1 className="text-center" id="carth1">Your Cart is Empty.</h1>
 
     return (
-        <section className="py-4 container">
+        <section className="py-4 container-fluid">
             <div className="row justify-content-center">
                 <div className="col-12">
                     <h5 id="carth5">Cart ({totalUniqueItems}) <br/> Total Items:({totalItems})</h5>

@@ -20,6 +20,7 @@ import FormDetail from './components/FA18BCE081/webcomp/FormDetail';
 import Product from './components/FA18BCE081/pages/Product';
 import Servicedetail from './components/FA18BCE081/webcomp/Servicecard/Servicedetail';
 import Doctersdetail from './components/FA18BCE081/webcomp/Doctors/Doctersdetail';
+import Loginpage from './components/FA18BCE081/pages/Loginpage';
 
 
 
@@ -53,14 +54,15 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route>
-            <Route path="/home" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/product" element={<Product/>}/>
             <Route path="/Services" element={<Servicespage/>}/>
             <Route path="/about" element={<Aboutus/>}/>
             <Route path="/contactus" element={<Contactus/>}/>
             <Route path="/educationalvideos" element={<Educationalvideos/>}/>
-            <Route path="/appointment" element={<Submitform/>}/>
+            <Route path="/appointment" element={<Contactus/>}/>
             <Route path='/FormDetail' element={<FormDetail/>}/>
+            <Route path='/Login' element={<Loginpage/>}/>
             <Route path='/Services/Service-detail' element={<Servicedetail/>}/>
             <Route path='/Home/Doctor-detail' element={<Doctersdetail/>}/>
             <Route path="*" element={<Nopage/>}/>

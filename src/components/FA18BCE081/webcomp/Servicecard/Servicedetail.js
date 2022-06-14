@@ -13,7 +13,7 @@ function Servicedetail() {
     return (
         <div>
             <Dentalnavbar />
-            <div className='row' style={{background:'white'}}>
+            <div className='row container-fluid' style={{background:'white'}}>
                 <div className='col-6'>
                     <img src={servicedetaildata.img} alt='' style={{ height: '300px', width: "600px" }} />
                 </div>

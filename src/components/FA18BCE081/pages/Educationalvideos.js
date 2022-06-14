@@ -10,7 +10,7 @@ const Educationalvideos =()=>{
         <div>
             <Dentalnavbar/>
             <Headbar name={"EDUCATIONAL VIDEOS"}/>
-            <video autoPlay loop style={{height:'600px', width:'1366px', marginTop:'10px' }}>
+            <video autoPlay loop className='container-fluid' style={{marginTop:'10px'}}>
                 <source src={video} type='video/mp4'/>
             </video>
             <Footer/>

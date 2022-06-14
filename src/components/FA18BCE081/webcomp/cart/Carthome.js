@@ -9,8 +9,8 @@ const Carthome = () => {
     return(
         <>
             <h1 className="text-center mt-3" id="Carthomeh1">All Items</h1>
-            <section className="py-4 container">
-                <div className="row justify-content-center">
+            <section className="py-4 container-fluid">
+                <div className="row justify-content-center" id="productcart">
                     {Datacart.ProductDetail.map((item, index)=> {
                         return(
                             <Itemcart
