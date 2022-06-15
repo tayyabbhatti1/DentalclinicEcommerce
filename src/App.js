@@ -14,13 +14,14 @@ import Aboutus from './components/FA18BCE081/pages/Aboutus';
 import Contactus from './components/FA18BCE081/pages/Contactus';
 import Nopage from './components/FA18BCE081/pages/Nopage';
 import Educationalvideos from './components/FA18BCE081/pages/Educationalvideos';
-import Submitform from './components/FA18BCE081/webcomp/Submitform';
 import Servicespage from './components/FA18BCE081/pages/Servicespage';
-import FormDetail from './components/FA18BCE081/webcomp/FormDetail';
 import Product from './components/FA18BCE081/pages/Product';
 import Servicedetail from './components/FA18BCE081/webcomp/Servicecard/Servicedetail';
 import Doctersdetail from './components/FA18BCE081/webcomp/Doctors/Doctersdetail';
 import Loginpage from './components/FA18BCE081/pages/Loginpage';
+import FormDetail from './components/FA18BCE081/webcomp/FormDetail';
+import BillingAddess from './components/FA18BCE081/webcomp/cart/BillingAddress';
+import BillingDetail from './components/FA18BCE081/webcomp/cart/BillingDetail';
 
 
 
@@ -61,10 +62,12 @@ function App() {
             <Route path="/contactus" element={<Contactus/>}/>
             <Route path="/educationalvideos" element={<Educationalvideos/>}/>
             <Route path="/appointment" element={<Contactus/>}/>
-            <Route path='/FormDetail' element={<FormDetail/>}/>
+            <Route path='formDetail' element={<FormDetail/>}/>
             <Route path='/Login' element={<Loginpage/>}/>
             <Route path='/Services/Service-detail' element={<Servicedetail/>}/>
             <Route path='/Home/Doctor-detail' element={<Doctersdetail/>}/>
+            <Route path='/billingaddress' element={<BillingAddess/>}/>
+            <Route path='BillingDetail' element={<BillingDetail/>}/>
             <Route path="*" element={<Nopage/>}/>
 
 

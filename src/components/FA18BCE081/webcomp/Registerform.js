@@ -11,7 +11,14 @@ const LoginForm = () => {
                     type='text'
                     className='form-control mb-3'
                     name='name'
-                    placeholder='User Name'
+                    placeholder='User name'
+                />
+               
+                <input
+                    type='email'
+                    className='form-control mb-3'
+                    name='name'
+                    placeholder='User name'
                 />
                 <input
                     type='password'

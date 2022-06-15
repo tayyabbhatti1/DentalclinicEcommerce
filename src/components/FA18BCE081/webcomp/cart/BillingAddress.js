@@ -2,8 +2,8 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage,} from "formik";
 import * as Yup from "yup";
 import {Link} from "react-router-dom"
-import { useNavigate } from "react-router";
-import { addForm } from "../../../Service/api";
+// import { useNavigate } from "react-router";
+import { addForm2 } from "../../../../Service/api2";
 
 
 
@@ -18,14 +18,14 @@ const ValidationSchema = Yup.object().shape({
         .required("Phone is required"),
     date: Yup.date()
         .required("Select Appointment Date"),
-    message: Yup.string()
+    address: Yup.string()
         
 
 
 });
 
-const Forms = () => {
-    const navigate = useNavigate();
+const BillingAddess = () => {
+    // const navigate = useNavigate();
     
     return (
         <>
@@ -36,14 +36,14 @@ const Forms = () => {
                 <div className="col-lg-12">
                     <Formik
 
-                        initialValues={{ name: "", email: "", phone: "", date: "", message: "" }}
+                        initialValues={{ name: "", email: "", phone: "", date: "", address: "" }}
                         validationSchema={ValidationSchema}
                         onSubmit={async (values,{resetForm},e) => {
                             await new Promise((r) => setTimeout(r, 100));
                             console.log(values);
                             const handleForm = async ()=>{
-                                await addForm(values);
-                            }
+                               await addForm2(values);
+                             }
                             handleForm();
                             resetForm({values:""})
                             e.preventDefault();
@@ -143,16 +143,16 @@ const Forms = () => {
                                             <Field
                                                 id="input-1"
                                                 type="text"
-                                                name="message"
-                                                placeholder="Message"
+                                                name="address"
+                                                placeholder="address"
                                                 className={`mt-2 form-control
-                                                ${touched.message && errors.message ? "is-invalid" : ""}`}
+                                                ${touched.address && errors.address ? "is-invalid" : ""}`}
                                                 
                                                 />
 
                                             <ErrorMessage
                                                 component="div"
-                                                name="message"
+                                                name="address"
                                                 className="invalid-feedback"
                                             />
                                         </div>
@@ -165,13 +165,13 @@ const Forms = () => {
                                                 Submit
                                         </button>
                                     </Form>
-                                        <Link to="/formDetail">
+                                        <Link to="/BillingDetail">
                                         <button
                                             id='submit-form'
                                             type="submit"
                                             className="btn btn-primary btn-block mt-4 form-control"
                                         >
-                                            View Patient
+                                            View Records
                                         </button></Link>
                                  </div>
                             ) : (
@@ -214,4 +214,4 @@ const Forms = () => {
     );
 }
 
-export default Forms;
+export default BillingAddess;
